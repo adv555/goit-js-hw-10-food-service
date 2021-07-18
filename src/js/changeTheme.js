@@ -31,5 +31,5 @@ const changeTheme = () => {
 
 // ============ Listeners============ //
 
+document.addEventListener('DOMContentLoaded', uploadCurrentTheme());
 refs.switch.addEventListener('change', changeTheme);
-refs.switch.addEventListener('load', uploadCurrentTheme());
